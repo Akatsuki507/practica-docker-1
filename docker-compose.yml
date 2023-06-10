@@ -16,7 +16,6 @@ services:
       - db
     environment:
       DATABASE_URL: postgresql://usuario:contrasena@db/mi_base_de_datos
-    restart: always
 
 volumes:
   dbdata:
